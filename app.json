@@ -4,25 +4,37 @@
     "slug": "TMSApp",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "fonts": [
+      {
+        "asset": "./assets/fonts/Poppins-Bold.ttf"
+      },
+      {
+        "asset": "./assets/fonts/Poppins-Light.ttf"
+      },
+      {
+        "asset": "./assets/fonts/Poppins-Medium.ttf"
+      },
+      {
+        "asset": "./assets/fonts/Poppins-Regular.ttf"
+      },
+      {
+        "asset": "./assets/fonts/Poppins-SemiBold.ttf"
+      }
+    ],
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       }
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    }
+    "web": {}
   }
 }
